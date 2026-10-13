@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agri Art | Mirchi Powder</title>
+<style>
+:root{--green:#124d32;--green2:#1d6b43;--red:#b51f25;--gold:#e7b83f;--cream:#fff9e9;--ink:#203126;--muted:#647267}
+*{box-sizing:border-box}body{margin:0;background:#f6f3e9;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+header{background:linear-gradient(130deg,#0d3d29,#1b7045);color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.brand{font-size:1.55rem;font-weight:900;letter-spacing:.04em}.brand span{color:var(--gold)}nav a{color:white;text-decoration:none;margin-left:18px;font-weight:600;font-size:.95rem}
+.hero{padding:70px 6% 58px;background:radial-gradient(circle at 85% 25%,#f9d979 0 9%,transparent 10%),linear-gradient(120deg,#fff9e9 0%,#f6e7bc 100%);display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.eyebrow{color:var(--red);font-weight:800;text-transform:uppercase;letter-spacing:.13em;font-size:.8rem}.hero h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.02;margin:12px 0;color:var(--green)}.hero h1 em{font-style:normal;color:var(--red)}.hero p{max-width:620px;color:#536257;font-size:1.12rem}
+.pill{display:inline-block;background:var(--green);color:white;padding:8px 16px;border-radius:50px;font-weight:700;margin:10px 8px 0 0}.hero-card{background:white;border:1px solid #ead9a7;border-radius:28px;padding:30px;text-align:center;box-shadow:0 18px 45px #6d55201a}.chilli{font-size:6rem;line-height:1.2}.hero-card h2{margin:0;color:var(--red);font-size:1.8rem}.hero-card strong{display:block;color:var(--green);font-size:1.2rem;margin-top:6px}
+section{padding:58px 6%}.section-head{text-align:center;margin:0 auto 32px;max-width:700px}.section-head h2{color:var(--green);font-size:2rem;margin:0 0 8px}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid #e8e4d8;border-radius:18px;padding:24px;box-shadow:0 8px 24px #23351c0a}.card .icon{font-size:1.8rem}.card h3{color:var(--green);margin:8px 0}.process{background:#eaf1e9}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.step{background:white;border-radius:16px;padding:18px 14px;text-align:center;border:1px solid #d9e5d9}.num{background:var(--gold);width:34px;height:34px;border-radius:50%;display:grid;place-items:center;margin:0 auto 10px;font-weight:900;color:#3b3219}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:20px}.info-box{background:white;border-radius:20px;padding:25px;border:1px solid #e8e4d8}.info-box h3{color:var(--green);margin-top:0}.detail{display:flex;justify-content:space-between;gap:15px;padding:10px 0;border-bottom:1px solid #eee}.detail:last-child{border:0}.detail span:first-child{color:var(--muted)}.detail strong{text-align:right}
+.maplink{display:inline-block;background:var(--green);color:white;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:700;margin-top:12px}.notice{background:#fff2d0;border-left:4px solid var(--gold);padding:15px 18px;border-radius:8px;color:#5c4a1e;font-size:.92rem}
+footer{background:#0d3826;color:#eaf4e9;padding:30px 6%;text-align:center}footer strong{color:var(--gold)}footer p{margin:6px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:45px}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.info{grid-template-columns:1fr}nav a{margin-left:10px}}
+@media(max-width:520px){.cards,.steps{grid-template-columns:1fr}header{justify-content:center;text-align:center}nav a{font-size:.85rem;margin:0 7px}.detail{font-size:.92rem}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Agri <span>Art</span></div>
+  <nav><a href="#about">About</a><a href="#process">How It's Made</a><a href="#details">Product Details</a><a href="#fun-games">Fun Games</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="hero">
+  <div>
+    <div class="eyebrow">From our fields to your kitchen</div>
+    <h1>Pure Spice.<br><em>Real Taste.</em></h1>
+    <p>Agri Art Mirchi Powder brings the familiar warmth and colour of red chilli to everyday cooking. Packed in Anjar, Gujarat.</p>
+    <span class="pill">100% Red Chilli</span><span class="pill">Net Weight: 1 kg</span>
+  </div>
+  <div class="hero-card"><div class="chilli" aria-hidden="true">🌶️</div><h2>Mirchi Powder</h2><strong>लाल मिर्च पाउडर</strong><p>Bold colour • Everyday flavour</p></div>
+</section>
+<section id="about">
+  <div class="section-head"><h2>About Agri Art</h2><p>A local food brand based in Anjar, Gujarat, focused on bringing chilli powder to your home.</p></div>
+  <div class="cards">
+    <article class="card"><div class="icon">🌱</div><h3>Simple Ingredient</h3><p>Ingredient declaration: red chilli only, subject to confirmation against the actual batch.</p></article>
+    <article class="card"><div class="icon">🧺</div><h3>Careful Handling</h3><p>Chillies are handled and processed in stages before the powder is packed.</p></article>
+    <article class="card"><div class="icon">🏡</div><h3>Packed in Anjar</h3><p>Manufacturing/packing location: Anjar, Gujarat – 370110.</p></article>
+  </div>
+</section>
+<section class="process" id="process">
+  <div class="section-head"><h2>How Mirchi Powder Is Made</h2><p>General process overview. Actual steps should be updated to match the production method used by Agri Art.</p></div>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Selection</h3><p>Red chillies are selected and inspected.</p></div>
+    <div class="step"><div class="num">2</div><h3>Cleaning</h3><p>Dust and unwanted material are removed.</p></div>
+    <div class="step"><div class="num">3</div><h3>Drying</h3><p>Chillies are dried as needed to support safe grinding and storage.</p></div>
+    <div class="step"><div class="num">4</div><h3>Grinding</h3><p>Dried chillies are ground into powder and checked.</p></div>
+    <div class="step"><div class="num">5</div><h3>Packing</h3><p>Powder is weighed and sealed in a food-grade laminated pouch.</p></div>
+  </div>
+</section>
+<section id="details">
+  <div class="section-head"><h2>Product & Packaging Details</h2><p>Key information for customers.</p></div>
+  <div class="info">
+    <div class="info-box">
+      <h3>Product Information</h3>
+      <div class="detail"><span>Product</span><strong>Mirchi Powder</strong></div>
+      <div class="detail"><span>Ingredients</span><strong>Red chilli (confirm batch)</strong></div>
+      <div class="detail"><span>Net quantity</span><strong>1 kg</strong></div>
+      <div class="detail"><span>MRP</span><strong>₹400 (inclusive of taxes)</strong></div>
+      <div class="detail"><span>Packaging</span><strong>Plastic laminated pouch</strong></div>
+      <div class="detail"><span>Storage</span><strong>Keep sealed in a cool, dry place</strong></div>
+      <div class="detail"><span>Best before</span><strong>To be confirmed</strong></div>
+    </div>
+    <div class="info-box">
+      <h3>Manufacturer & Customer Care</h3>
+      <div class="detail"><span>Brand</span><strong>Agri Art</strong></div>
+      <div class="detail"><span>Manufactured/Packed at</span><strong>Anjar, Gujarat – 370110</strong></div>
+      <div class="detail"><span>Customer care</span><strong><a href="tel:9023252249">9023252249</a></strong></div>
+      <div class="detail"><span>FSSAI licence/registration</span><strong>Pending — add after issue</strong></div>
+      <div class="detail"><span>Batch / Lot No.</span><strong>Print on pouch</strong></div>
+      <div class="detail"><span>Packing date</span><strong>Print on pouch</strong></div>
+      <div class="detail"><span>Website QR</span><strong>Add after website is published</strong></div>
+      <a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Anjar%2C+Gujarat+370110" target="_blank" rel="noopener">📍 View Anjar on Google Maps</a>
+    </div>
+  </div>
+  <p class="notice"><strong>Before publishing or printing:</strong> Confirm the actual manufacturing process, ingredient statement, shelf life, FSSAI number, batch/date marking and all label declarations. This page is a draft brand-information page, not a substitute for regulatory review. Do not use an unissued licence number or an unverified quality claim.</p>
+</section>
+
+<section id="fun-games" style="background:#fff5df">
+  <div class="section-head">
+    <h2>Fun & Games</h2>
+    <p>Take a little break and enjoy our games!</p>
+  </div>
+  <div class="card" style="max-width:760px;margin:auto;text-align:center">
+    <div class="icon">🎮</div>
+    <h3>Explore Our Fun Games</h3>
+    <p>Play, have fun, and discover more from Agri Art.</p>
+    <!-- Replace YOUR-GAME-WEBSITE-LINK with the URL of your games website. -->
+    <a class="maplink" href="https://meet1479.github.io/games/" target="_blank" rel="noopener">Play Fun Games →</a>
+    </div>
+</section>
+
+<section id="contact">
+  <div class="section-head"><h2>Contact Agri Art</h2><p>Questions about the product? Get in touch.</p></div>
+  <div class="card" style="max-width:650px;margin:auto;text-align:center">
+    <h3>AGRI ART</h3><p>Anjar, Gujarat – 370110</p><p>Customer Care: <a href="tel:9023252249">9023252249</a></p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Anjar%2C+Gujarat+370110" target="_blank" rel="noopener">Open Google Maps</a>
+  </div>
+</section>
+</main>
+<footer><strong>Agri Art</strong><p>From Our Fields To Your Kitchen</p><p>© Agri Art • Anjar, Gujarat</p></footer>
+</body>
+</html>
